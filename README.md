@@ -1,5 +1,4 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="CursoJS" />
 
   &#xa0;
 
@@ -17,17 +16,17 @@
 
   <img alt="License" src="https://img.shields.io/github/license/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" /> 
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" /> 
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/{{EngMarianaBrito}}/miniprojetosJS?color=56BEB8" />
 </p>
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  Mini Projetos JS 🚀 Under construction...  🚧
+<h4 align="center"> 
+	🚧  Mini Projetos JS 🚀 
 </h4> 
 
 <hr> -->
@@ -58,11 +57,11 @@ Describe your project
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS](hhttps://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Jquery](https://jquery.com/)
+
 
 ## :white_check_mark: Requirements ##
 
@@ -74,16 +73,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/EngMarianaBrito/miniprojetosJS/
 
-# Access
-$ cd cursojs
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+# Live server : 5500
 ```
 
 ## :memo: License ##
