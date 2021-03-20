@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>Revisando o DOM</title>
+
+    <!--Dando uma brincando no css do site-->
+    <style>
+        body{
+            background-color: aquamarine;
+            color:white;
+            font: normal 18pt Arial;
+        }
+        h2{
+            font: normal 15pt arial;
+            left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>INICIANDO DOM</h1>
+    <h2>
+        <li>LIA</li>
+        <li>LIA</li>
+        <li>LIA</li>
+        <li>LIA</li>
+        <li>LIA</li>
+    </h2>
+    <p>RESULTADO</p>
+    <p>Aprendendo a usar o <strong> DOM </strong> !!! </p>
+    <div>
+        <button id = "btn"> click aqui </button>
+    </div>
+
+    <script>
+        $('h1').fadeOut("2000").fadeIn("2000")
+       
+        //IDEIA DA FUNÇÃO:LIMPAR A LISTA QUANDO CLICAR NO BOTÃO
+        //ligando a função ao botão
+        $('#btn').on("click",botao)
+        //executar uma ação quando clicar no botão
+        function botao (){
+           // $('h2').remove()
+           $('h2').css({'color':'blue'})
+        }
+    </script>
+
+</body>
+</html>
